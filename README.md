@@ -22,4 +22,4 @@
 2. Установить зависимости:
 <code>pip install -r requirements.txt</code>
 3. Запустить скрипт:
-<code>python main.pt</code>
+<code>python main.py</code>
