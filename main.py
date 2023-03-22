@@ -8,6 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
+
 options = Options()
 executable_path = os.path.join(os.getcwd(), 'chromedriver', 'chromedriver.exe')
 browser = webdriver.Chrome(options=options, service=Service(executable_path=executable_path))
